@@ -1,0 +1,7 @@
+deepface
+Pillow==10.2.0
+ultralytics
+omegaconf==2.3.0
+streamlit==1.30.0
+tf-keras
+tensorflow==2.12
