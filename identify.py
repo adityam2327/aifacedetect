@@ -1,5 +1,3 @@
-# Import necessary libraries
-
 from ultralytics import YOLO
 from ultralytics.engine.results import Results  
 from deepface import DeepFace
