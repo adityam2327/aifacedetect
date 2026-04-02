@@ -1,9 +1,13 @@
+import os
+
+# Set DEEPFACE_HOME to current directory to use local weights
+os.environ["DEEPFACE_HOME"] = os.getcwd()
+
 from ultralytics import YOLO
 from ultralytics.engine.results import Results  
 from deepface import DeepFace
 from PIL import Image
 import shutil
-import os
 
 totalKnownFaces=0
 totalUnknownFaces=0
